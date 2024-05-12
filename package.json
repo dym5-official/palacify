@@ -1,0 +1,27 @@
+{
+  "name": "palacify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "GPL-2.0-only",
+  "type": "module",
+  "scripts": {
+    "zip:source": "./scripts/zip-source",
+    "wpcs:check": "vendor/bin/phpcs -s > cs-check.report.log",
+    "wpcs:fix": "vendor/bin/phpcbf > cs-fix.report.log",
+    "release": "NODE_ENV=production ./scripts/release",
+    "clean": "git clean -dfX",
+    "bundle": "./scripts/bundle",
+    "dev": "npx nodemon"
+  },
+  "dependencies": {
+    "preact": "^10.21.0",
+    "redaxios": "^0.5.1",
+    "vanillatoasts": "^1.6.0",
+    "wirec": "^1.2.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.1",
+    "nodemon": "^3.1.0",
+    "uniqcss": "^1.0.0"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+/vendor/
+*.log
+*.zip
+*.map
+yarn.lock
+assets/admin/bundle.js
+assets/admin/bundle.css

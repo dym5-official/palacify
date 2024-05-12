@@ -1,0 +1,17 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules"
+    ],
+    "verbose": true,
+    "watch": [
+        "dev",
+        "mods/html-blocks/src"
+    ],
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "js,jsx,css,json",
+    "exec": "node dev/build.js"
+}

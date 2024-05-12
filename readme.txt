@@ -1,0 +1,20 @@
+=== Palacify ===
+Requires at least: 6.0
+Tested up to: 6.5.3
+Stable tag: 1.0.0
+License: GPLv2 or later
+
+Custom HTML with shortcode.
+
+== Description ==
+
+Easily add HTML to pages and posts using shortcodes.
+
+== Changelog ==
+
+### GitHub link
+
+[https://github.com/dym5-official/palacify](https://github.com/dym5-official/palacify)
+
+= 1.0.0 =
+* Initial release

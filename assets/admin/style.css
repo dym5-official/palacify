@@ -1,0 +1,40 @@
+#wpcontent {
+    padding-left: 0;
+}
+
+#wpbody-content {
+    padding-bottom: 0;
+}
+
+#palacify-app-root {
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    height: calc(100vh - 100px);
+}
+
+ul#adminmenu a.wp-has-current-submenu:after,
+ul#adminmenu>li.current>a.current:after {
+    border-right-color: transparent;
+}
+
+.palacify-icon-loading {
+    animation: spin 0.7s linear infinite;
+    line-height: 1;
+    font-style: normal;
+    display: inline-block;
+}
+
+#adminmenuback {
+    z-index: 101;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+NAME="palacify"
+VERSION=$(php -r 'preg_match("/\*\s?Version\:\s?(.*?)\n/i", file_get_contents("./palacify.php"), $m);echo is_array($m) && isset($m[1]) ? $m[1] : "";')
+ZIPNAME="$NAME-sc-$VERSION.zip";
+
+git archive --format=zip --output=$ZIPNAME HEAD

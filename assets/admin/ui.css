@@ -1,0 +1,36 @@
+.d5btn {
+    border: none;
+    outline: none;
+    background-color: #426191;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    padding: 6px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.d5btn.sec {
+    background-color: #a55f3d;
+}
+
+.d5btn.dng {
+    background-color: #933434;
+}
+
+.d5btn.sm {
+    font-size: 12px;
+    padding: 4px 10px;
+}
+
+.d5btn:hover {
+    opacity: 0.85;
+}
+
+.d5btn:active {
+    opacity: 1;
+}
+
+.d5btn:disabled {
+    opacity: 0.75;
+}
