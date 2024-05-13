@@ -174,8 +174,6 @@ palacify.page("html-blocks", function HtmlBlocks() {
                                 <div>Name<span className="d5cred">*</span></div>
                                 <input type="text" name="name" disabled={saving} className="d5fw" autoComplete="off" defaultValue={state?.block?.name || ""} />
                                 {!!errors.name && (<div className="d5ferr">{errors.name}</div>)}
-
-                                <UI.Input />
                             </div>
 
                             <div className="d5mt14">
