@@ -47,7 +47,7 @@ class Admin {
 			'palacify-bundle',
 			sprintf(
 				'window.palacify = { ajaxurl: "%s", _wpnonce: "%s" };',
-				admin_url( 'admin-ajax.php' ),
+				esc_url( admin_url( 'admin-ajax.php' ) ),
 				wp_create_nonce( 'palacify-api' ),
 			),
 			'before'
