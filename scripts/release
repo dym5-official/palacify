@@ -36,7 +36,8 @@ zip -q -r "$ZIPNAME" . -x \
     "dev/*" \
     "mods/html-blocks/src/*" \
     nodemon.json \
-    "*.map"
+    "*.map" \
+    "svn/*"
 
 
 mkdir $TMPDIRNAME
