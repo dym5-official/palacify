@@ -11,7 +11,8 @@
     "release": "NODE_ENV=production ./scripts/release",
     "clean": "git clean -dfX",
     "bundle": "./scripts/bundle",
-    "dev": "npx nodemon"
+    "dev": "npx nodemon",
+    "svn:prep": "./scripts/svn-prep"
   },
   "dependencies": {
     "preact": "^10.21.0",
