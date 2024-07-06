@@ -1,6 +1,6 @@
 === Palacify ===
-Requires at least: 6.0
-Tested up to: 6.5.3
+Requires at least: 6.2
+Tested up to: 6.5.5
 Stable tag: 1.0.0
 License: GPLv2 or later
 
